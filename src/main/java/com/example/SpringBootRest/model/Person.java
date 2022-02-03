@@ -24,7 +24,8 @@ public class Person {
     @Column(name = "Age", nullable = false)
     private int age;
 
-    @Column(name = "Email")
+    @Column(name = "email")
     private String email;
+
 }
 
